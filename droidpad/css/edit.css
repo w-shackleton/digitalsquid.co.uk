@@ -1,0 +1,91 @@
+#dpedit {
+	font-size: 80%;
+}
+
+.dialog {
+	font-size: 80%;
+}
+
+#edit {
+	width: 720px;
+	height: 405px;
+	position: absolute;
+}
+#edit-container {
+	width: 720px;
+	height: 405px;
+	border: 5px #AAAAAA solid;
+}
+
+.bg {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: -100;
+}
+
+.img-drag {
+	border-style: dashed;
+}
+
+#edit .item { 
+	width: 100px;
+	height: 100px;
+	left: 200px;
+	top: 100px;
+	position: absolute;
+	background-color: #FFFFFF;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	border: 1px black solid;
+}
+#edit .item:active {
+	border: 1px #444444 solid;
+}
+#edit .item.selected {
+	font-weight: bold;
+}
+
+#edit .item p {
+	text-align: center;
+	margin: 0.1em 0;
+	font-size: 1.0em;
+}
+#edit .item p.text {
+	font-size: 1em;
+}
+#edit .item.selected p {
+	font-weight: bold;
+}
+
+#edit .item img.icon {
+	display: none;
+}
+#edit .item.grid img.grid-icon { display: inline; }
+#edit .item.toggle img.toggle-icon { display: inline; }
+#edit .item.panel img.panel-icon { display: inline; }
+#edit .item.slider img.slider-icon { display: inline; }
+
+.menu {
+	padding: 4px;
+	width: 720px;
+}
+/* IE7 */
+*+html .menu {
+	display: inline;
+}
+
+.ui-menu { position: absolute; width: 100px; z-index: 1000; }
+.clear { clear: both; }
+
+/* Item settings */
+#item-settings th {
+	font-size: 1.4em;
+	font-weight: normal;
+}
+
+#dpedit input { 
+	width: 150px;
+}

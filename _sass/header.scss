@@ -1,0 +1,57 @@
+#header{
+height: 200px;
+min-width:600px;
+background: url('/img/headerfill.png') repeat-x;
+}
+#headerp2{
+background: url('/img/header.jpg') no-repeat;
+height: 200px;
+}
+#homeclick {
+float: left;
+margin: 10px;
+height: 80px;
+width: 260px;
+background-color: transparent;
+}
+
+#toplinks {
+color: #DDDDDD;
+font-family: 'Molengo', arial, serif;
+font-size: 16px;
+float: left;
+margin-left: 220px; /* 500 - 280 */
+}
+
+.linkbar {
+padding-top: 20px;
+padding-bottom: 5PX;
+}
+
+.linkbar > div {
+padding: 2px;
+font-variant: small-caps;
+}
+.linkbar li {
+float: left;
+text-align: center;
+list-style-type: none;
+padding: 2px 5px 2px 5px;
+}
+
+.linkbar li a {
+display: block;
+color: #DDDDDD;
+text-decoration: none;
+}
+
+.linkbar li span {
+font-size: 12px;
+text-align: left;
+visibility: hidden;
+}
+
+.linkbar li:hover span {
+visibility: visible;
+}
+

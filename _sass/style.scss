@@ -1,0 +1,48 @@
+body, h1, h2, h3, h4, h5, h6, blockquote, p, a, form, ul, li{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.clear {
+	clear: both;
+}
+body{
+	background-color: #DDDDDD;
+	@extend .textfont;
+	min-width: 960px;
+}
+a, a:link, a:visited {
+	text-decoration: underline;
+	color: #2D74D3;
+}
+
+.centre {
+	text-align: center;
+}
+
+a:hover {
+	text-decoration: none;
+}
+.wrapper{
+	background: url('/img/containerfill.jpg') no-repeat;
+	margin:0px;
+	min-width:900px;
+	padding: 0 25px 0 25px;
+}
+
+.content{
+	width:900px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-bottom:10px;
+}
+.content.wide {
+	width:970px;
+}
+
+.float-left {
+	float: left;
+}
+.float-right {
+	float: right;
+}

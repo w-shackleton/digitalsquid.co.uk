@@ -1,0 +1,33 @@
+.home .welcome {
+	@extend .emphasis;
+	@extend .titlefont;
+	color: black;
+}
+
+.home .projects {
+	width: 740px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.home .projects > a {
+	display: block;
+	float: left;
+	width: 250px;
+	height: 250px;
+	padding: 30px;
+	margin: 30px;
+	text-decoration: none;
+	img, object {
+		width: 160px;
+		height: 160px;
+	}
+	object {
+		pointer-events: none;
+	}
+	h2 {
+		@extend .titlefont;
+		text-decoration: underline;
+	}
+	p, p:link, p:visited {
+	}
+}

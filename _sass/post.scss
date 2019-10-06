@@ -1,0 +1,86 @@
+.post{
+width: 900px;
+padding: 20px 0 20px 0;
+}
+.post.wide {
+width: 730px !important;
+}
+.date {
+width: 50px;
+float: left;
+text-transform: uppercase;
+font-family: 'Molengo', arial, serif;
+font-size: 12px;
+text-align: right;
+padding: 10px 20px 5px 0;
+}
+.date .commentlink {
+padding: 10px 10px 5px 0;
+text-transform: none;
+font-size: 80%;
+}
+.date .commentlink a {
+color: #0068D3;
+}
+
+.post.wide {
+width: 710px !important;
+}
+
+.post .categories {
+font-family: 'Molengo', arial, serif;
+text-transform: uppercase;
+margin-bottom: 1em;
+font-size: 70%;
+}
+
+.post .categories a {
+color: #2D74D3;
+text-decoration: none;
+}
+
+.post .categories a:hover {
+color: #4f9aff;
+text-decoration: none;
+}
+
+.entry{
+font-size: 16px;
+width: 830px;
+float: left;
+}
+.content h1{
+@extend .titlefont;
+color: #122f56;
+font-size: 40px;
+padding: 10px 0 25px 0;
+}
+.entry p {
+	margin-bottom: 0.5em;
+}
+.entry.banner > p:first-of-type {
+	@extend .emphasis;
+}
+.entry h2{
+@extend .titlefont;
+font-size: 26px;
+color: #001d3a;
+padding: 10px 0 0 0;
+}
+.entry h3{
+@extend .titlefont;
+font-size: 20px;
+color: #001d3a;
+padding: 10px 0 0 0;
+}
+
+.entry ul, .entry ol {
+padding-left: 40px;
+}
+
+pre {
+	white-space: pre-wrap;
+}
+code {
+	line-height: 100%;
+}

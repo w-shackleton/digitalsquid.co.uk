@@ -1,0 +1,10 @@
+!DP!
+2.0.0.0;2.0;https://launchpadlibrarian.net/126692087/droidpad-setup-2.0.exe
+1.2.1.0;1.2.1;http://digitalsquid.co.uk/download/droidpad/DroidPad_setup-1.2.1.exe
+1.1.0.0;1.1 (requires phone update);http://digitalsquid.co.uk/download/droidpad/DroidPad_setup-1.1.exe
+0.9.8.0;0.9.8 Beta;http://digitalsquid.co.uk/download/droidpad/DroidPad_setup-0.9.8.exe
+0.9.7.0;0.9.7 Beta;http://digitalsquid.co.uk/download/droidpad/DroidPad_setup-0.9.7.exe
+0.9.6.4;0.9.6.4 Beta;http://digitalsquid.co.uk/download/droidpad/DroidPad_setup-0.9.6.4.exe
+0.9.6.3;0.9.6.3 Beta;http://digitalsquid.co.uk/download/droidpad/DroidPad_setup-0.9.6.3.exe
+0.9.6.0;0.9.6 Beta;http://digitalsquid.co.uk/download/droidpad/DroidPad_setup-0.9.6.exe
+!PD!
